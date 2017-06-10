@@ -17,12 +17,28 @@ body
     position: relative;
     z-index: -1;
 }
-.block1
+.circle_icon
 {
-    height: 90px;
-    background-color: red;
+    font-size: 80px;
+    line-height: 150px;
+    text-align: center;
+    min-width: 90px;
+    width:150px;
+    height:150px;
+    color: white;
+    background-color: #303030;
+}
+.circle_icon:hover
+{
+ background-color: #505050;
 }
 .spacer
 {
     height: 50px;
+}
+.div_centralizer
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
