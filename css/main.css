@@ -5,11 +5,9 @@ body
 }
 #center_image
 {
-    width:200px;
-    height:200px;
     position:absolute;
     z-index:10; 
-    top: 90%;
+    top: 100%;
     left: 50%;
     transform: translate(-50%, -50%);
 
@@ -18,4 +16,13 @@ body
 {
     position: relative;
     z-index: -1;
+}
+.block1
+{
+    height: 90px;
+    background-color: red;
+}
+.spacer
+{
+    height: 50px;
 }
