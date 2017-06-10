@@ -1,0 +1,21 @@
+body 
+{
+    margin: 0;
+    padding: 0;
+}
+#center_image
+{
+    width:200px;
+    height:200px;
+    position:absolute;
+    z-index:10; 
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.paralax_container
+{
+    position: relative;
+    z-index: -1;
+}

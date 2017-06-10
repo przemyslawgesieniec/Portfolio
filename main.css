@@ -1,0 +1,9 @@
+#logo
+{
+    width:200px;
+    height:200px;
+     position:absolute;
+     z-index:10; 
+     top:105px;
+     left:15px;
+}
